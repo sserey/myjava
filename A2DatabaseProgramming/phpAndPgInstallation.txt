@@ -1,0 +1,43 @@
+Script started on 2022-03-16 10:01:23-07:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="144" LINES="31"]
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ sudo vim db.php[5Pphp[C[C[C[C[C[C[C[5@sudo vim[C[C[C[C[C[C[C[5Pphp[C[C[C[C[C[C[C[5@sudo vim[C[C[C[C[C[C[Cls[Kcd /var/www/html/ls[Ksudo vim db.php[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+Attendance.java  phpAndPgInstallation.txt  typescript
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ Attendance.java
+Attendance.java: command not found
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ Attendance.javajAttendance.javaaAttendance.javavAttendance.javaaAttendance.javacAttendance.java Attendance.java
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ javac Attendance.java[K[K[K[K[K[1P Attendance
+Exceptionjava.lang.ClassNotFoundException: org.postgresql.Driver
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ java Attendancec Attendance.java[1P Attendance.java[1P Attendance.java[1P Attendance.java[1P Attendance.java[1P Attendance.javav Attendance.javai Attendance.javam Attendance.java[C Attendance.java
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;31r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[31;1H"Attendance.java" 28L, 580C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35mimport[m java.sql.*;
+[35mimport[m java.io.*;
+
+[32mpublic[m [32mclass[m Attendance{[5;9H[32mpublic[m [32mstatic[m [32mvoid[m main(String args[]) [32mthrows[m SQLException{[7;17HConnection conn = [31mnull[m;[8;17HStatement statment = [31mnull[m;[9;17HResultSet rs = [31mnull[m;[10;17H[38;5;130mtry[m{[11;25HClass.forName([31m"org.postgresql.Driver"[m);[12;25Hconn = DriverManager.getConnection([31m"jdbc:postgresql://localhost/postgres"[m,[31m"postgres"[m,[31m"@sA290120000"[m);[13;25H[38;5;130mif[m(conn == [31mnull[m){[14;33HSystem.out.println([31m"Connection Failed!!!!!"[m);[15;25H}[38;5;130melse[m{[16;33HSystem.out.println([31m"Connection Successfull!!!!"[m);[18;25H}[19;17H}[38;5;130mcatch[m(Exception e){[20;25HSystem.out.println([31m"Exception"[m+e);[21;17H}[24;9H}[28;1H}
+[94m~                                                                                                                                               [30;1H~                                                                                                                                               [m[31;127H16,50-78      All[16;78H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81mimport[m java.sql.*;
+[38;5;81mimport[m java.io.*;
+
+[38;5;121mpublic[m [38;5;121mclass[m Attendance{[5;9H[38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String args[]) [38;5;121mthrows[m SQLException{[7;17HConnection conn = [95mnull[m;[8;17HStatement statment = [95mnull[m;[9;17HResultSet rs = [95mnull[m;[10;17H[93mtry[m{[11;25HClass.forName([95m"org.postgresql.Driver"[m);[12;25Hconn = DriverManager.getConnection([95m"jdbc:postgresql://localhost/postgres"[m,[95m"postgres"[m,[95m"@sA290120000"[m);[13;25H[93mif[m(conn == [95mnull[m){[14;33HSystem.out.println([95m"Connection Failed!!!!!"[m);[15;25H}[93melse[m{[16;33HSystem.out.println([95m"Connection Successfull!!!!"[m);[18;25H}[19;17H}[93mcatch[m(Exception e){[20;25HSystem.out.println([95m"Exception"[m+e);[21;17H}[24;9H}[28;1H}
+[94m~                                                                                                                                               [30;1H~                                                                                                                                               [m[31;127H16,50-78      All"Attendance.java" 28L, 580C[16;78H[?25h[?25l[31;117H^[[16;78H[31;117H  [16;78H[31;117H^[[16;78H[31;117H  [16;78H[?25h[?25l[31;117H:[16;78H[31;1H[K[31;1H:[?2004h[?25hwq[?25l[?2004l"Attendance.java" 28L, 580C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ vim  Attendance.java[5Pjava Attendancec Attendance.java
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ javac Attendance.java[1Pvim [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pjava Attendance
+Exceptionjava.lang.ClassNotFoundException: org.postgresql.Driver
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ java Attendancec Attendance.java
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ javac Attendance.java[6P Attendance
+Exceptionjava.lang.ClassNotFoundException: org.postgresql.Driver
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ java Attendancec Attendance.java
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ javac Attendance.java[6P Attendance
+Exceptionjava.lang.ClassNotFoundException: org.postgresql.Driver
+]0;serey@ubuntu: ~/Desktop/java/A2DatabaseProgramming[01;32mserey@ubuntu[00m:[01;34m~/Desktop/java/A2DatabaseProgramming[00m$ cd /c[Ksr[K[Kusr/share/jaa[Kva/
+]0;serey@ubuntu: /usr/share/java[01;32mserey@ubuntu[00m:[01;34m/usr/share/java[00m$ ls
+java_defaults.mk  [0m[01;31mjuh-6.4.7.jar[0m  [01;31mjurt-6.4.7.jar[0m  [01;31mlibintl.jar[0m            [01;31mridl-6.4.7.jar[0m  [01;31munoloader-6.4.7.jar[0m
+[01;31mjava_uno.jar[0m      [01;36mjuh.jar[0m        [01;36mjurt.jar[0m        [01;31mpostgresql-42.3.3.jar[0m  [01;36mridl.jar[0m        [01;36munoloader.jar[0m
+]0;serey@ubuntu: /usr/share/java[01;32mserey@ubuntu[00m:[01;34m/usr/share/java[00m$ rm postgresql-42.3.3.jar 
+rm: remove write-protected regular file 'postgresql-42.3.3.jar'? yes
+rm: cannot remove 'postgresql-42.3.3.jar': Permission denied
+]0;serey@ubuntu: /usr/share/java[01;32mserey@ubuntu[00m:[01;34m/usr/share/java[00m$ rm postgresql-42.3.3.jar [1@s[1@u[1@d[1@o[1@ 
+[sudo] password for serey: 
+]0;serey@ubuntu: /usr/share/java[01;32mserey@ubuntu[00m:[01;34m/usr/share/java[00m$ ls
+java_defaults.mk  [0m[01;31mjuh-6.4.7.jar[0m  [01;31mjurt-6.4.7.jar[0m  [01;31mlibintl.jar[0m     [01;36mridl.jar[0m             [01;36munoloader.jar[0m
+[01;31mjava_uno.jar[0m      [01;36mjuh.jar[0m        [01;36mjurt.jar[0m        [01;31mridl-6.4.7.jar[0m  [01;31munoloader-6.4.7.jar[0m
+]0;serey@ubuntu: /usr/share/java[01;32mserey@ubuntu[00m:[01;34m/usr/share/java[00m$ cd ~/Downloads/
+]0;serey@ubuntu: ~/Downloads[01;32mserey@ubuntu[00m:[01;34m~/Downloads[00m$ Exceptionjava.lang.ClassNotFoundException: org.postgresql.Driver
+Exceptionjava.lang.ClassNotFoundException:: command not found
+]0;serey
